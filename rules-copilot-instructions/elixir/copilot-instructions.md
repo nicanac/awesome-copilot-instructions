@@ -6,15 +6,16 @@
 
 ## Commit Message Format
 - Use the following format for commit messages:
-  <type>[optional scope]: <description>
+  <type>(<scope>): <description>
 
   [optional body]
 
   [optional footer(s)]
 
   Where:
-  - type: fix, feat, build, chore, ci, docs, perf, refactor, revert, style, test
+  - type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test
   - scope (optional): A noun describing a section of the codebase (e.g., fluxcd, deployment)
-  - description: A brief summary of the change in present tense
+  - description: A brief summary of the change in imperative mood, lowercase, no period
   - body (optional): A more detailed explanation
   - footer (optional): One or more footers in the specified format
+  - Breaking changes: Add `!` after type/scope (e.g., `feat!:`) or use `BREAKING CHANGE:` footer
