@@ -1,16 +1,53 @@
-# TypeScript Next.js  prompt file
+# TypeScript Next.js Copilot Instructions
 
-Author: Shreyas Prakash
+## Key Principles
+- Use TypeScript for strict type safety and enhanced developer experience
+- Follow Next.js App Router patterns for modern React applications
+- Implement server and client components appropriately
+- Use Drizzle ORM with TypeScript for type-safe database operations
+- Style with Daisy UI and Tailwind CSS for responsive design
 
-## What you can build
-Task Management App: Develop a task management tool with a clean user interface using React, Daisy UI, and Tailwind for styling. Use Next.js App Router for seamless navigation and Drizzle ORM with TypeScript for data management. Implement features like project categorization, task prioritization, and deadline notifications.E-Commerce Platform: Create a scalable e-commerce platform with node.js and Next.js. Use Drizzle ORM for product and user data management. Implement a responsive shopping cart and a secure checkout process. Utilize Daisy UI and Tailwind for a modern shopping experience, and optimize images for better performance.Online Learning Platform: Build a platform for online courses with React and Next.js. Use Drizzle ORM to manage users, courses, and progress tracking. Ensure a responsive design with Tailwind CSS, and implement interactive components like quizzes and discussion forums.Personal Finance Tracker: Design a personal finance tracker using Node.js and React with a Next.js framework. Manage financial data with Drizzle ORM and represent it with graphs and charts using a Tailwind-styled UI. Provide users with budgeting tools and financial insights.Social Networking Site: Construct a social networking site with Next.js and React, employing Drizzle ORM for database interactions. Implement user authentication and messaging features. Use Tailwind CSS for a seamless, responsive design.Real Estate Listing Site: Develop a real estate listing website using Next.js, React, and Drizzle ORM. Enable property searches with filters and sorting, and integrate interactive maps. Style the interface with Daisy UI and Tailwind for a professional look.Event Management System: Create an event management system using Next.js and Node.js, with Drizzle ORM to handle events and attendees data. Implement features like RSVP management and reminders. Style the platform using Daisy UI and Tailwind CSS for an engaging user experience.Job Portal Website: Construct a job portal with Next.js and React, leveraging Drizzle ORM for handling job listings and user profiles. Integrate search functionality and allow users to apply for jobs online. Ensure a responsive experience using Tailwind CSS.Recipe Sharing App: Develop a recipe-sharing platform using Next.js and React, managing data with Drizzle ORM. Implement user-uploaded content and community-rated recipes. Style the user interface with Daisy UI and Tailwind for an intuitive design.Fitness Tracking Application: Build a fitness tracking app with React and Next.js, using TypeScript for strong typing and Drizzle ORM for data management. Implement features like workout logs, progress visualization, and nutrition tracking, with a responsive design from Tailwind CSS.
+## Project Structure
+- Use Next.js 14+ App Router directory structure
+- Organize components in `app/components/`
+- Place database schemas in `lib/schema.ts`
+- Store utilities in `lib/utils.ts`
+- Use `bun` as the package manager for improved performance
 
-## Benefits
+## Development Guidelines
+- Plan step-by-step with detailed pseudocode before coding
+- Write secure, functional, and efficient TypeScript code
+- Use functional and declarative programming patterns
+- Follow descriptive variable naming conventions
+- Implement modular code structure for maintainability
 
+## TypeScript Best Practices
+- Enable strict mode in `tsconfig.json`
+- Use proper type definitions for all functions and variables
+- Leverage TypeScript's utility types (`Pick`, `Omit`, `Partial`, etc.)
+- Create custom types for API responses and data structures
 
-## Synopsis
-Developers proficient with TypeScript, Node.js, and React can create a web app using the specified tech stack, optimized for both performance and readability, with emphasis on responsive UI using Daisy UI and Tailwind CSS.
+## Next.js App Router Guidelines
+- Use server components by default; mark client components explicitly
+- Implement proper data fetching with `fetch` and caching
+- Optimize images with Next.js `Image` component
+- Follow Next.js documentation for routing and rendering patterns
 
-## Overview of  prompt
-The  file provides guidelines for developing a TypeScript application using Node.js, Next.js App Router, Drizzle ORM, React, Daisy UI, and Tailwind. It recommends using 'bun' as the package manager and emphasizes the importance of step-by-step planning with detailed pseudocode before writing secure, functional, and efficient code. The file promotes the use of functional and declarative programming patterns, descriptive variable naming, concise syntax, and modularization to enhance code readability. It specifies TypeScript, Daisy UI, and Tailwind CSS usage for styling and encourages performance optimization through server components, dynamic loading, and image optimization. Additionally, it advises on following best practices from the Next.js documentation for data fetching, rendering, and routing.
+## Styling and UI
+- Use Daisy UI components for consistent design system
+- Apply Tailwind CSS utilities for custom styling
+- Ensure responsive design across all screen sizes
+- Implement dark/light theme support when applicable
+
+## Database and ORM
+- Define schemas with Drizzle ORM for type safety
+- Use migrations for database structure changes
+- Implement proper error handling for database operations
+- Follow database normalization best practices
+
+## Performance Optimization
+- Implement server-side rendering where appropriate
+- Use dynamic imports for code splitting
+- Optimize bundle size with tree shaking
+- Implement proper caching strategies
 

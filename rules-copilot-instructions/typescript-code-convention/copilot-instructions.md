@@ -1,16 +1,62 @@
-# TypeScript Code Convention  prompt file
+# TypeScript Code Convention Copilot Instructions
 
-Author: Jaron Heard
+## Key Principles
+- Write concise, modular TypeScript code with functional programming patterns
+- Avoid classes; prefer functions and composition
+- Use consistent naming conventions and code formatting
+- Implement proper error handling and validation
+- Follow mobile-first responsive design approach
 
-## What you can build
+## TypeScript Guidelines
+- Use strict TypeScript configuration
+- Define explicit types for all function parameters and return values
+- Leverage TypeScript utility types for better type safety
+- Use `const` assertions and `as const` for immutable data
+- Avoid `any` type; use proper type definitions
 
+## Naming Conventions
+- Use camelCase for variables and functions
+- Use PascalCase for components and types
+- Use UPPER_SNAKE_CASE for constants
+- Use kebab-case for file names
+- Use descriptive, meaningful names
 
-## Benefits
+## Error Handling and Validation
+- Use structured error handling with try-catch blocks
+- Implement input validation at API boundaries
+- Use Zod or similar libraries for runtime type checking
+- Log errors appropriately with contextual information
+- Provide user-friendly error messages
 
+## UI and Styling Guidelines
+- Use Shadcn UI and Radix UI for consistent components
+- Apply Tailwind CSS for utility-first styling
+- Use NativeWind for React Native projects
+- Follow mobile-first responsive design principles
+- Ensure accessibility compliance (WCAG guidelines)
 
-## Synopsis
-Developers building a full-stack application with Next.js and Expo using TypeScript and modern UI libraries will benefit from improved code quality and performance optimization by adhering to these standards.
+## API and Authentication
+- Use tRPC for type-safe API calls
+- Implement authentication with Clerk or similar services
+- Secure API endpoints with proper validation
+- Use proper HTTP status codes and response formats
 
-## Overview of  prompt
-The  file outlines coding standards and best practices for developing applications using TypeScript, Node.js, Next.js, Expo, and related technologies. It emphasizes writing concise and modular TypeScript code while utilizing functional programming patterns and avoiding classes. The file specifies naming conventions, TypeScript usage guidelines, and syntax preferences to maintain code consistency and readability. Error handling is prioritized with structured validation, logging, and user messaging. For UI, the file advocates using Shadcn UI, Radix UI, Tailwind CSS, and NativeWind for styling, ensuring responsive design with a mobile-first approach. API calls should be secure with tRPC and authentication managed by Clerk. The guide also includes performance optimization techniques, such as dynamic loading and image optimization, along with tailored approaches for Next.js and Expo environments, focusing on server-side rendering, data fetching, and native feature utilization. Developers are advised to follow the respective Next.js and Expo documentation for best practices.
+## Performance Optimization
+- Implement dynamic loading for code splitting
+- Optimize images with Next.js Image component
+- Use proper caching strategies
+- Minimize bundle size through tree shaking
+- Implement lazy loading for large datasets
+
+## Next.js Specific Guidelines
+- Use App Router for modern Next.js applications
+- Implement server-side rendering appropriately
+- Follow Next.js data fetching best practices
+- Use server components by default, client components when necessary
+
+## Expo Specific Guidelines
+- Utilize Expo SDK features for native functionality
+- Follow Expo best practices for app configuration
+- Implement proper navigation with Expo Router
+- Optimize for both iOS and Android platforms
 
