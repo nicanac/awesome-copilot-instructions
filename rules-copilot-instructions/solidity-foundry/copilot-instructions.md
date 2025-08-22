@@ -1,6 +1,5 @@
-# Solidity Foundry  prompt file
+# Solidity Foundry Copilot Instructions
 
-Author: heyjonbray
 Modified from [solidity-hardhat-copilotrules](/rules/solidity-hardhat-copilotrules-prompt-file/) by brolag
 
 ## What you can build

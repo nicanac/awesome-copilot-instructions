@@ -1,6 +1,5 @@
-# TypeScript Google Apps Script  prompt file
+# TypeScript Google Apps Script Copilot Instructions
 
-Author: Shreyas Prakash
 
 ## What you can build
 Google Sheets Automation: Develop custom functions and macros for Google Sheets using TypeScript and Google Apps Script. Implement data validation, custom formatting, and complex calculations.

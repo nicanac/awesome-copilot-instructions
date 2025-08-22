@@ -1,6 +1,5 @@
-# Python GitHub Setup  prompt file
+# Python GitHub Setup Copilot Instructions
 
-Author: Jesse Naldo
 
 ## What you can build
 AI File Sorting Plugin for IDEs:Interactive AI File Organizing Dashboard:Intelligent File Organization Chatbot:Open Source File Classification Extension:AI-Powered Data Import Tool:

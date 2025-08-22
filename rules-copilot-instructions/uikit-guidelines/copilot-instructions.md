@@ -1,6 +1,5 @@
 # UIKit Guidelines  Prompt File
 
-Author: MoonAndEye
 
 ## What you can build
 iOS Application Deployment - App Store distribution package for native iOS applications. Provides production-ready IPA bundle following Apple's submission guidelines. Implements required provisioning profiles, entitlements, and compliance measures for public release.
