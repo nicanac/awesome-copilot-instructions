@@ -1,8 +1,6 @@
-# Extracted from README.md
 
-# SvelteKit TailwindCSS TypeScript  prompt file
+# SvelteKit TailwindCSS TypeScript Copilot Instructions
 
-Author: wisdom1456
 
 ## What you can build
 

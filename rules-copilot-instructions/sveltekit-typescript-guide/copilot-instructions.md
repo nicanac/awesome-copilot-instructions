@@ -1,16 +1,65 @@
-# SvelteKit TypeScript Guide  prompt file
+# SvelteKit TypeScript Guide Copilot Instructions
 
-Author: Brandon Edley
+## Key Principles
+- Use SvelteKit for modern full-stack Svelte applications
+- Implement TypeScript for type safety and better developer experience
+- Leverage Supabase for authentication and real-time database features
+- Use Drizzle ORM for type-safe database operations
+- Apply Tailwind CSS and Shadcn components for consistent styling
 
-## What you can build
-SvelteKit Project Starter Template: A template generator for quickly starting projects using SvelteKit, Supabase, and Drizzle. This tool would configure SSR, SSG, and real-time data with Supabase, leaving only customizations to be added by developers.Real-time Chat Application: A real-time chat application using SvelteKit and Supabase for authentication and Drizzle for state management. It would leverage SvelteKit's SSR capabilities to ensure fast loading times and seamless authentication transitions.E-commerce Platform: Build a scalable e-commerce platform with SvelteKit that utilizes Supabase for managing product inventory and user accounts. The solution would focus on SSR for efficient server-side rendering of product pages with SSG for converting high-traffic pages into static content.Personal Blogging Website: A lightweight blogging platform using SvelteKit and Tailwind CSS. The website would support static site generation with dynamic content sections, allowing authors to edit and publish articles dynamically via a Supabase backend.Multi-language Content Management System (CMS): Implement a CMS with SvelteKit and Paraglide.js that supports internationalization and dynamic content loading through Supabase. The CMS would include simple mechanisms for creating and managing content across multiple languages.Task Management Application: A SvelteKit-based task management app utilizing Supabase for real-time collaboration and Drizzle for frontend state management. The app would feature dynamic updates and SSR for decreased load times.User Authentication Template: A collection of SvelteKit components and templates that allow developers to implement complex authentication flows, such as OAuth and PKCE, using Supabase's authentication features.Online Portfolio Creator: A tool that enables users to create their online portfolios using SvelteKit, customizable Shadcn components, and Tailwind CSS for styling. The platform would utilize Supabase for content storage and dynamic site rendering.Interactive Data Dashboard: Create a dashboard application using SvelteKit and Supabase, optimized for SSR and static content when appropriate, that displays real-time analytics and reports from a Supabase database, offering teams a collaborative interface.Event Management System: Develop an event management system using SvelteKit with functionalities like scheduling, attendee registration, and live updates via Supabase. The system would utilize SSR for efficient page rendering and load functions for data fetching.SEO Optimized Blogs Generator: An app that allows bloggers to create SEO-optimized blog posts with meta tags management using SvelteKit's Svelte:head component and SSR for fast content delivery.SvelteKit Component Library: A library of reusable components designed with Svelte 5, Shadcn components, and Tailwind CSS, which developers can quickly integrate into any SvelteKit project.Supabase Starter Kit: A toolkit providing best-practice configurations for using Supabase with SvelteKit, including authentication flows, real-time features, and database optimizations. This kit would help developers quickly bootstrap their applications with minimal setup.Responsive Web App Framework: Create a responsive web application framework utilizing SvelteKit and Tailwind CSS, focused on performance optimization, for developers building cross-platform mobile and desktop apps.Dynamic Form Builder: A GUI-based dynamic form builder using SvelteKit, with built-in validation, server-side form handling, and Supabase integration for storing submitted data. This tool would enable the creation and management of complex form workflows without coding expertise.
+## SvelteKit Best Practices
+- Use server-side rendering (SSR) by default
+- Implement static site generation (SSG) for performance where appropriate
+- Use SvelteKit's load functions for efficient data fetching
+- Leverage SvelteKit's form actions for server-side form handling
+- Follow SvelteKit's file-based routing conventions
 
-## Benefits
+## TypeScript Guidelines
+- Use strict TypeScript configuration
+- Define types for all props, stores, and API responses
+- Leverage TypeScript utility types for better type inference
+- Use proper type annotations for Svelte components
+- Implement type-safe database schemas with Drizzle
 
+## Project Structure
+- Organize routes in `src/routes/` following SvelteKit conventions
+- Place reusable components in `src/lib/components/`
+- Store database schemas in `src/lib/schema/`
+- Keep utilities and helpers in `src/lib/utils/`
+- Use proper TypeScript path mapping in `tsconfig.json`
 
-## Synopsis
-Developers building a SvelteKit project with Supabase integration for real-time apps can use this prompt for guidance in best practices, code organization, and type safety with TypeScript.
+## Supabase Integration
+- Use Supabase client with proper TypeScript types
+- Implement authentication with Supabase Auth
+- Use real-time subscriptions for live data
+- Follow Supabase security best practices (RLS policies)
+- Handle errors gracefully in database operations
 
-## Overview of  prompt
-The  file outlines a comprehensive guide for web development using Svelte 5, SvelteKit, TypeScript, Supabase, Drizzle, and modern best practices. It emphasizes writing concise, technical code with examples, leveraging SvelteKit's server-side rendering and static site generation, and optimizing performance with minimal JavaScript. It provides conventions for naming, file organization, and code structure, focusing on functional and declarative programming, and the use of TypeScript. The file includes guidelines for UI styling with Tailwind CSS and Shadcn components, color conventions, state management, routing, API development, SEO, forms, and internationalization using Paraglide.js. It also stresses best practices for accessibility, performance optimization, and Supabase integration, including security measures and error handling. Additionally, links to relevant documentation are provided for in-depth understanding and reference.
+## Performance Optimization
+- Use SvelteKit's prerendering for static content
+- Implement proper caching strategies
+- Optimize images and assets
+- Use code splitting with dynamic imports
+- Minimize client-side JavaScript
+
+## UI and Styling
+- Use Tailwind CSS for utility-first styling
+- Implement Shadcn components for consistent UI
+- Follow responsive design principles
+- Support dark/light theme switching
+- Ensure accessibility compliance (WCAG guidelines)
+
+## Development Guidelines
+- Write concise, functional code with minimal side effects
+- Use Svelte stores for global state management
+- Implement proper error handling and validation
+- Follow naming conventions (camelCase for variables, PascalCase for components)
+- Use meaningful component and function names
+
+## SEO and Internationalization
+- Use SvelteKit's `<svelte:head>` for meta tags
+- Implement Paraglide.js for internationalization
+- Ensure proper URL structure and routing
+- Use structured data for better SEO
+- Optimize Core Web Vitals
 

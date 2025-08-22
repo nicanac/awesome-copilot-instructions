@@ -1,6 +1,5 @@
-# Web App Optimization  prompt file
+# Web App Optimization Copilot Instructions
 
-Author: JustMrMendez
 
 ## What you can build
 

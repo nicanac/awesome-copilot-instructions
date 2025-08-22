@@ -9,14 +9,15 @@
 
 ## Commit Message Guidelines
 - Always suggest a conventional commit message with an optional scope in lowercase.
-- Format: <type>[optional scope]: <description>
+- Format: <type>(<scope>): <description>
 
   [optional body]
 
   [optional footer(s)]
 
-- type: build, chore, ci, docs, feat, fix, perf, refactor, style, test
+- type: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test
 - scope (optional): A noun describing a section of the codebase (e.g., fluxcd, deployment)
-- description: A brief summary of the change in present tense
+- description: A brief summary of the change in imperative mood, lowercase, no period
 - body (optional): A more detailed explanation
 - footer (optional): One or more footers (e.g., BREAKING CHANGE, issue tracker ID)
+- Breaking changes: Add `!` after type/scope (e.g., `feat!:`) or use `BREAKING CHANGE:` footer
