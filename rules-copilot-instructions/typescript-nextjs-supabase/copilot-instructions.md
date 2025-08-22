@@ -1,16 +1,85 @@
-# TypeScript Next.js Supabase  prompt file
+# TypeScript + Next.js + Supabase Copilot Instructions
 
-Author: kr3t3n
+## Overview
+Modern full-stack development combining TypeScript's type safety, Next.js's full-stack capabilities, and Supabase's backend-as-a-service for rapid application development.
 
-## What you can build
-AI-Powered Code Review Tool: A web application that integrates with GitHub and uses Vercel AI SDK to provide automated code reviews. It will analyze pull requests for adherence to TypeScript best practices, code structure, and performance optimization, providing suggestions for improvement.Next.js SEO Optimizer: A service that leverages Next.js 14's metadata API to analyze and suggest improvements for SEO on Next.js websites. It uses dynamic fetching of site metadata and provides real-time optimization strategies to enhance visibility and search rankings.Responsive UI Component Library: A curated library of pre-built, responsive components using React, Shadcn UI, Tailwind, and Radix UI, tailored specifically for TypeScript projects. This library will facilitate rapid development of aesthetically pleasing and performance-optimized UIs.Supabase Data Model Designer: An online tool that provides an intuitive interface to design and generate Supabase data models and schemas. It outputs TypeScript interfaces using Supabase SDK, enabling seamless integration with web applications for developers.Next.js Performance Monitoring Dashboard: A SaaS platform to analyze and track the performance metrics (LCP, CLS, FID) of Next.js applications. Using server-side capabilities of Next.js, it provides insights and suggestions for performance improvements in real-time.Functional Programming Learning Platform: An educational site focused on teaching functional and declarative programming patterns in TypeScript. It offers interactive courses and examples, utilizing React components and dynamic code snippets to help users learn by doing.Next.js Dynamic API Route Generator: A web application that generates API routes using Next.js App Router conventions. It provides developers with boilerplate code and efficient caching/revalidation strategies, facilitating quicker development cycles.Error & Loading State Management Library: A programmable library, built with React and Next.js, that includes ready-to-use templates for error boundaries and loading states. Its module-based system allows easy integration and customization in existing projects.Server Component Performance Enhancer: A tool that scans Next.js projects to recommend server-side rendering techniques and transition client-side components to server components where feasible, ensuring optimal usage and performance.AI-Powered Chat Interface Builder: A drag-and-drop builder that uses Vercel AI SDK to create and embed chat interfaces in websites. It supports creating structured conversations with interactive and responsive designs, optimized for TypeScript environments.
+## Development Principles
+- Embrace functional and declarative programming patterns
+- Use TypeScript for comprehensive type safety
+- Implement server-first architecture with Next.js App Router
+- Prioritize performance optimization and SEO
+- Follow responsive, mobile-first design principles
 
-## Benefits
+## Technical Stack
+- TypeScript for type safety
+- Next.js 14+ with App Router
+- Supabase for backend services (database, auth, storage)
+- Tailwind CSS with Shadcn UI components
+- Radix UI for accessible component primitives
+- Vercel AI SDK for AI-powered features
 
+## Coding Standards
+### TypeScript Best Practices
+- Use strict TypeScript configuration
+- Prefer interfaces over types for object shapes
+- Implement proper error handling with Result types
+- Use type guards for runtime validation
 
-## Synopsis
-Developers building modern, scalable web applications with a strong focus on performance, UI/UX, and server-side rendering would benefit, enabling them to implement best practices and optimize integration of TypeScript, Supabase, and Vercel AI SDK.
+### Next.js Architecture
+- Leverage Server Components by default
+- Use Client Components only when necessary
+- Implement proper data fetching with async/await
+- Follow App Router conventions for file organization
 
-## Overview of  prompt
-The  file provides guidelines for developing a project using TypeScript, Next.js, React, and associated libraries such as Shadcn UI, Radix UI, Supabase, Tailwind, and Vercel AI SDK. It emphasizes writing concise and modular TypeScript code using functional programming principles. The file outlines specific conventions for naming, syntax, UI styling, and performance optimization. It suggests the use of Supabase for database operations and details integration with Vercel AI SDK for AI-powered features. There are directives for efficient data fetching, error handling, SEO optimization, and adherence to Next.js docs for best practices in routing, rendering, and fetching data. The aim is to maintain high performance, readability, and maintainability within the project.
+### Component Design
+- Create modular, reusable components
+- Implement proper prop validation with TypeScript
+- Use Radix UI primitives for accessibility
+- Follow Shadcn UI patterns for consistent styling
+
+## Performance Optimization
+### Rendering Strategy
+- Use Server Components for static content
+- Implement streaming for better user experience
+- Cache data with proper revalidation strategies
+- Optimize images with Next.js Image component
+
+### Bundle Optimization
+- Implement dynamic imports for code splitting
+- Use next/bundle-analyzer to monitor bundle size
+- Optimize third-party scripts loading
+- Implement proper tree-shaking
+
+## Database Integration
+### Supabase Best Practices
+- Use TypeScript types generated from Supabase schema
+- Implement Row Level Security (RLS) policies
+- Use Supabase client with proper error handling
+- Implement real-time subscriptions where appropriate
+
+### Data Fetching
+- Use Server Actions for mutations
+- Implement proper caching with Next.js cache API
+- Handle loading and error states consistently
+- Use optimistic updates for better UX
+
+## AI Integration
+### Vercel AI SDK
+- Implement streaming responses for chat interfaces
+- Use proper token management for AI calls
+- Handle rate limiting and errors gracefully
+- Implement user feedback mechanisms
+
+## Quality Assurance
+- Unit testing with Jest and Testing Library
+- E2E testing with Playwright
+- Type checking in development and CI
+- Performance monitoring with Web Vitals
+- SEO optimization with Next.js metadata API
+
+## Security Considerations
+- Implement proper authentication flows
+- Validate all user inputs server-side
+- Use environment variables for sensitive data
+- Follow OWASP security guidelines
 

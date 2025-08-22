@@ -1,16 +1,75 @@
-# Vue 3 Nuxt 3 TypeScript  prompt file
+# Vue 3 + Nuxt 3 + TypeScript Copilot Instructions
 
-Author: codetie-ai
+## Overview
+Modern full-stack web development with Vue 3's Composition API, Nuxt 3's universal rendering, and TypeScript for enhanced development experience.
 
-## What you can build
-Vue 3 Component Library: Develop a customizable Vue 3 component library that adheres to best practices in Vue 3, leveraging Nuxt UI, Tailwind CSS, and ensuring components are optimized for performance and responsive design with a mobile-first approach.TypeScript Best Practices Guide for Vue Developers: Create an online guide or platform detailing TypeScript best practices, covering interfaces over types, avoiding enums, and leveraging TypeScript's capabilities in Vue projects, complete with code examples.Tailwind CSS Design Tool for Vue Projects: Offer a tool that helps developers design and implement responsive interfaces using Tailwind CSS, specifically tailored to work seamlessly with Vue 3, Vue Router, and Nuxt projects, including preset themes and configurations.Vue and Nuxt UI Pro Templates: Develop a collection of professional-grade, ready-to-use project templates leveraging Nuxt UI Pro components, ensuring optimal performance and utilizing best practices in performance optimization and responsive design.VueUse Enhancement Plugins: Create a series of plugins that enhance VueUse, by adding more utilities and functions that focus on improved reactivity and performance specific to common use cases in Vue 3 applications.Vite Optimization Service: Provide a web-based service that helps developers analyze their Vite build processes, offering suggestions and scripts for implementing optimized chunking strategies, code splitting, and reducing bundle sizes.Image Optimization API for Vue Projects: Develop an API specifically for Vue and Nuxt applications, handling image optimization, format conversions to WebP, and implementing lazy loading, improving loading times and performance.Nuxt Dynamic Loading Simulator: An interactive tool that simulates and suggests dynamic loading strategies for non-critical components in Nuxt.js projects, helping developers identify performance bottlenecks and optimize loading times.Performance Monitoring Dashboard for Vue Apps: Build a dashboard application that tracks and visualizes performance metrics for Vue 3 applications, showing real-time data on reactivity, loading times, and suggesting optimizations.Vue Composition API Learning Platform: Offer an educational platform focused on teaching the Vue Composition API, providing examples, exercises, and best practice guidelines on using script setup style and functional components for improved clarity and performance.
+## Development Principles
+- Embrace Vue 3's Composition API and script setup syntax
+- Use TypeScript for type safety and better development experience
+- Follow functional programming patterns where applicable
+- Implement responsive-first design with Tailwind CSS
+- Optimize for performance and SEO
 
-## Benefits
+## Technical Stack
+- Vue 3 with Composition API
+- Nuxt 3 with Universal Rendering
+- TypeScript for type safety
+- Vite for fast development and building
+- Tailwind CSS for styling
+- VueUse for utility functions
 
+## Coding Standards
+### TypeScript Guidelines
+- Prefer interfaces over types for object shapes
+- Avoid enums; use union types or const assertions
+- Use strict TypeScript configuration
+- Implement proper type guards for runtime type checking
 
-## Synopsis
-Vue/Nuxt developers can leverage this to create scalable, performant applications with optimized code structure and UI/UX using TypeScript, Nuxt UI, and Tailwind CSS.
+### Vue 3 Best Practices
+- Use script setup for single-file components
+- Prefer reactive() and ref() over Vue 2 style data
+- Implement composables for reusable logic
+- Use defineProps and defineEmits with TypeScript
 
-## Overview of  prompt
-The  file outlines guidelines and best practices for developing with modern web technologies such as Vue 3, Nuxt 3, TypeScript, Node.js, Vite, and Tailwind CSS. It emphasizes writing clear and maintainable TypeScript code using functional programming patterns, organizing code systematically, and adhering to naming conventions. The file advocates for using TypeScript interfaces over types, avoiding enums, and favoring functional components. It also suggests using the Vue Composition API and provides instructions for UI development with Nuxt and Tailwind CSS, focusing on performance optimization techniques such as lazy loading, dynamic imports, and responsive design. The file aims to enhance performance and reactivity using tools like VueUse and optimizing the build process with Vite.
+### Component Organization
+- Follow functional component patterns
+- Separate business logic into composables
+- Use provide/inject for deep component communication
+- Implement proper component lifecycle management
+
+## Performance Optimization
+### Code Splitting
+- Use dynamic imports for non-critical components
+- Implement lazy loading for routes and components
+- Optimize bundle size with proper tree-shaking
+
+### Rendering Optimization
+- Use server-side rendering where appropriate
+- Implement proper caching strategies
+- Optimize images with Nuxt Image module
+- Use WebP format for better compression
+
+### Reactive Performance
+- Use shallowRef and shallowReactive for large objects
+- Implement proper watchers with flush timing
+- Avoid unnecessary reactivity for static data
+
+## UI/UX Guidelines
+### Responsive Design
+- Mobile-first approach with Tailwind CSS
+- Use Nuxt UI components for consistency
+- Implement proper focus management for accessibility
+- Ensure proper color contrast and semantic HTML
+
+### State Management
+- Use Pinia for complex state management
+- Implement composables for local state
+- Handle loading and error states consistently
+- Use optimistic updates for better UX
+
+## Quality Assurance
+- Unit testing with Vitest
+- E2E testing with Playwright
+- Type checking in CI/CD pipeline
+- Performance monitoring with Nuxt DevTools
 
